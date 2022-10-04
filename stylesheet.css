@@ -1,0 +1,93 @@
+body div {
+    border-radius: 15px;
+}
+
+.website {
+
+    width: 555px;
+    height: 705px;
+    background-image: radial-gradient(#8b8b8b, #4e4e4e);
+    text-align: center;
+    display: inline-block;
+    border: 10px solid #323232;
+
+}
+
+.website .webname {
+    color: #989699;
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.website .calculator-container {
+    width: 535px;
+    height: 655px;
+    background-image: radial-gradient(#9f9f9f, #e9e7ea);
+    /*background-color: #e9e7ea; #8b8b8b #4e4e4e*/
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+}
+
+/*display*/
+.website .calculator-container .display-container {
+    background-color: #ddfcff;
+    border: 3px solid #a1a3a5;
+    width: 509px;
+    height: 90px;
+    margin: 10px;
+    text-align: right;
+    font-size: 50px;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.website .calculator-container .display-container #resultDisplay {
+    margin: 0;
+    margin-right: 20px;
+}
+
+/*buttons*/
+.website .calculator-container .buttons-container {
+    margin-top: 40px;
+}
+
+.website .calculator-container .buttons-container button {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(#91fd9a, #dcfedf);
+    border: 3px solid #84878a;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    margin: 5px;
+    font-size: 33px;
+    font-weight: bold;
+    box-shadow: 0 3px #999;
+}
+
+.website .calculator-container .buttons-container button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.website .calculator-container .buttons-container .number {
+    background: linear-gradient(#c4d1ff, #e5ebfe);
+}
+
+.website .calculator-container .buttons-container .CE {
+    border: 3px solid #d7683b;
+    background: linear-gradient(#feae8f, #ffddde);
+}
+
+.website .calculator-container .buttons-container .CE .MR {
+    font-weight: normal;
+}
+
