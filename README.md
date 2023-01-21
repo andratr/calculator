@@ -1,4 +1,4 @@
-# Calculator Project
+# Calculator
 
 For my training at the intership firm, I developed the following project. My task was to make a working calculator that should look like a given picture.
 
